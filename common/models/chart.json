@@ -14,11 +14,11 @@
       "type": {
         "Career": "number", 
         "Finances": "number",
-        "PersonalGrowth": "number", 
+        "Personal Growth": "number", 
         "Health": "number", 
         "Family": "number",
         "Relationships": "number", 
-        "SocialLife": "number", 
+        "Social Life": "number", 
         "Attitude": "number"
       },
       "required": true
