@@ -13,7 +13,7 @@
     "data": {
       "type": {
         "Career": "number", 
-        "Finance": "number",
+        "Finances": "number",
         "PersonalGrowth": "number", 
         "Health": "number", 
         "Family": "number",
