@@ -17,53 +17,55 @@
     "lastName": {
       "type": "string",
       "required": true
-    }, 
+    },
     "militaryBranch": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "veteranOrActive": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "separationDate": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "disabilityStatus": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "disabilityPercentage": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "employmentStatus": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "lastEmployed": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "maritalStatus": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "militaryRank": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "officerRank": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "enlistingPay": {
       "type": "string",
-      "required": false 
+      "required": false
     },
     "codeIdentifier": {
       "type": "string",
+      "required": false
+    }
       "required": false 
     },
     "daysTilSep": {
@@ -78,7 +80,6 @@
       "type": "string",
       "required": false
     }
-
   },
   "validations": [],
   "relations": {
@@ -89,6 +90,11 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "timelines": {
+      "type": "hasOne",
+      "model": "timeline",
+      "foreignKey": "appUserId"
     }
   },
   "acls": [],
