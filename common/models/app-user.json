@@ -65,7 +65,19 @@
     "codeIdentifier": {
       "type": "string",
       "required": false 
-    } 
+    },
+    "daysTilSep": {
+      "type": "number",
+      "required": false
+    },
+    "lowestScore": {
+      "type": "number",
+      "required": false
+    },
+    "lowestScoreName": {
+      "type": "string",
+      "required": false
+    }
 
   },
   "validations": [],
