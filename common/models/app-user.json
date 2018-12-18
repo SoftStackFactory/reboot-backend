@@ -65,8 +65,6 @@
     "codeIdentifier": {
       "type": "string",
       "required": false
-    }
-      "required": false 
     },
     "daysTilSep": {
       "type": "number",
