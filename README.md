@@ -6,7 +6,7 @@ Okay
 [reboot frontend](https://github.com/SoftStackFactory/reboot)
  ##### To update frontend submodule!
  1. cd client
- 2. git pull
+ 2. git pul
  3. cd back to root
  4. git status should show a change to client
  5. commit
