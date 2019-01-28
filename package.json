@@ -8,12 +8,13 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "preinstall": "cd client && npm install && npx ionic-app-scripts build --prod",
     "posttest": "npm run lint && nsp check",
     "dev": "NODE_ENV=development node .",
     "prod": "NODE_ENV=production node ."
   },
   "dependencies": {
-    "compression": "^1.0.3",
+    "compression": "^1.7.3",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
     "loopback": "^3.19.0",
