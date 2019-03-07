@@ -12,9 +12,7 @@
       "required": true
     },
     "content": {
-      "type": [
-        "object"
-      ],
+      "type": "object",
       "required": true
     }
   },
