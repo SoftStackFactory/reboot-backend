@@ -12,13 +12,13 @@
     },
     "data": {
       "type": {
-        "Career": "number", 
+        "Career": "number",
         "Finances": "number",
-        "Personal Growth": "number", 
-        "Health": "number", 
+        "Personal Growth": "number",
+        "Health": "number",
         "Family": "number",
-        "Relationships": "number", 
-        "Social Life": "number", 
+        "Relationships": "number",
+        "Social Life": "number",
         "Attitude": "number"
       },
       "required": true
