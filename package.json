@@ -9,10 +9,11 @@
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && nsp check",
-    "dev": "cd client && npm install && npx ionic-app-scripts build --prod && NODE_ENV=development node .",
+    "dev": "cd client && npx ionic-app-scripts build --prod && NODE_ENV=development node .",
     "prod": "NODE_ENV=production node ."
   },
   "dependencies": {
+    "@ionic/app-scripts": "^3.2.4",
     "compression": "^1.7.3",
     "cors": "^2.5.2",
     "dotenv": "^8.2.0",
