@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "preinstall": ,
+
     "posttest": "npm run lint && nsp check",
     "dev": "cd client && npm install && npx ionic-app-scripts build --prod && NODE_ENV=development node .",
     "prod": "NODE_ENV=production node ."
