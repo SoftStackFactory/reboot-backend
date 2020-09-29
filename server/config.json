@@ -5,6 +5,7 @@
   "remoting": {
     "context": false,
     "rest": {
+      cors: false,
       "handleErrors": false,
       "normalizeHttpPath": false,
       "xml": false
