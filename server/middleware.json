@@ -3,6 +3,9 @@
     "loopback#favicon": {},
   "initial": {
     "compression": {},
+ "cors": {
+            
+        },
     "helmet#xssFilter": {},
     "helmet#frameguard": {
       "params": {
