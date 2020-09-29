@@ -1,25 +1,26 @@
 {
   "initial:before": {
-    "loopback#favicon": {},
+    "loopback#favicon": {}
+  },
   "initial": {
     "compression": {},
-      "cors": {	
-        "params": {	
-          "origin": true,	
-          "credentials": true,	
-          "maxAge": 86400	
-      }	
+    "cors": {
+      "params": {
+        "origin": "*",
+        "credentials": true,
+        "maxAge": 86400
+      }
     },
     "helmet#xssFilter": {},
     "helmet#frameguard": {
-      "params": {
-        "action": "deny"
-      }
+      "params": [
+        "deny"
+      ]
     },
     "helmet#hsts": {
       "params": {
         "maxAge": 0,
-        "includeSubdomains": true
+        "includeSubDomains": true
       }
     },
     "helmet#hidePoweredBy": {},
@@ -39,11 +40,7 @@
       ]
     }
   },
-  "files": {
-    "loopback#static": {
-      "params": "$!../client/www"
-    }
-  },
+  "files": {},
   "final": {
     "loopback#urlNotFound": {}
   },
